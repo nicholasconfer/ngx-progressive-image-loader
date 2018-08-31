@@ -34,7 +34,7 @@ npm install ngx-progressive-image-loader --save
 Open your module file e.g `app.module.ts` and update **imports** array
 
 ```ts
-import { NgxProgressiveImageLoaderModule } from 'ngx-progressive-image-loader';
+import { NgxProgressiveImageLoaderModule, IImageLoaderOptions } from 'ngx-progressive-image-loader';
 ...
 imports: [
 ...
